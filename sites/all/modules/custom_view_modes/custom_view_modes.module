@@ -1,0 +1,16 @@
+<?php
+
+function custom_view_modes_help($path, $arg) {
+    switch ($path) {
+        case "admin/help#content_view_modes":
+            return '<p>' . t("Creates template hooks for view modes.") . '</p>';
+            break;
+    }
+}
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function custom_view_modes_preprocess_node(&$vars) {
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['type'] . '__' . $vars['view_mode'];
+}
