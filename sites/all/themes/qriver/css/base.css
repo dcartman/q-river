@@ -1,0 +1,114 @@
+
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Drupal or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to arrange the page
+ * in a traditional "Header, sidebars, content, and footer" layout.
+ *
+ * This layout method works reasonably well, but shouldn't be used on a
+ * production site because it can break. For example, if an over-large image
+ * (one that is wider than 20% of the viewport) is in the left sidebar, the
+ * image will overlap with the #content to the right. The exception to this
+ * is IE6 which will just hide the navigation block completely in these
+ * instances due to a positioning bug.
+*/
+
+* { 
+    position:relative; 
+}
+
+body { 
+    color: rgb(153,153,153);
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    color: #555555;
+}
+
+.section {
+    padding: 10px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '.';
+    height: 0px;
+    display:block;
+    visibility: hidden;
+}
+
+.menu li.expanded ul {
+
+}
+
+#page, #navigation {
+    margin: 0 auto;
+    width: 1024px;
+    z-index: 10;
+}
+
+#content,
+#sidebar-first,
+#sidebar-second {
+    float: left;
+    display: block;
+}
+
+/* Content Region */
+#content {
+    margin: 0 30px;
+    padding: 0 10px;
+    width: 960px;
+}
+
+body.sidebar-first #content {
+    width: 600px;
+    margin-top: 20px;
+    left: 20%; /* LTR */
+}
+body.sidebar-first.not-front #content {
+    margin-top: -10px;
+}
+body.sidebar-second #content {
+    width: 600px;
+}
+body.two-sidebars #content {
+    width: 300px;
+    left: 20%;
+}
+
+/* Sidebar First */
+#sidebar-first {
+    width: 300px;
+    /* left: -80%; /* LTR */
+}
+
+.not-front #sidebar-first {
+    margin-top: -65px;
+}
+
+#sidebar-first .section {
+    padding-right: 0px;
+}
+
+#sidebar-first .block {
+    margin-bottom: 10px;
+}
+
+/* Sidebar First Action Menu */
+body.two-sidebars #sidebar-first {
+    left: -60%; /* LTR */
+}
+
+#sidebar-second {
+    float: right; /* LTR */
+    width: 20%;
+}
+

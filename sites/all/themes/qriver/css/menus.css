@@ -1,0 +1,77 @@
+/* 
+    Document   : menus
+    Created on : Dec 26, 2011, 10:21:59 PM
+    Author     : danielcarter
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/* Navigation */
+#navigation {
+    height: 40px;
+    z-index: 11;
+}
+
+#navigation .section {
+    padding: 10px 10px 0px 10px;
+}
+
+#navigation div.contextual-links-wrapper {
+    right: -15px;
+}
+
+#block-system-main-menu {
+    float: left; 
+}
+
+#block-menu-menu-secondary-links {
+    float: right;
+}
+
+#block-system-main-menu ul, #block-menu-menu-secondary-links ul {
+    height: 30px;
+    list-style: none;
+    list-style-image: none;
+    margin: 0px 1em;
+    padding:0px;
+}
+
+/* Main Menu */
+#block-system-main-menu ul li, 
+#block-menu-menu-secondary-links ul li {
+    display: block;
+    float: left;
+}
+
+#block-system-main-menu ul li a, 
+#block-menu-menu-secondary-links ul li a {
+    color: rgb(153, 153, 153);
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#block-system-main-menu ul li a {
+    text-transform: uppercase;
+}
+
+/* User Menu */
+#block-system-user-menu .content ul.menu {
+    list-style: none;
+    list-style-image: none;
+    margin: 0px;
+    padding:0px;
+}
+
+#block-system-user-menu .content ul.menu li {
+    list-style: none;
+    list-style-image: none;
+    float: left;
+}
+
+#block-system-user-menu .content ul.menu li a {
+
+}
+

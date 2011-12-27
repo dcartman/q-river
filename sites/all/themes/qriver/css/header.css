@@ -1,0 +1,41 @@
+/* 
+    Document   : header
+    Created on : Dec 26, 2011, 10:31:29 PM
+    Author     : danielcarter
+    Description:
+        Header Region
+*/
+
+/* Header Region */
+#header .section {
+    padding:8px 10px 10px 10px;
+}
+
+#site-name {
+    font-size: 30px;
+    font-family: "Bell MT";
+}
+
+#site-name a, #site-name a:visited, #site-name a:hover {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#site-name a span {
+    display: block;
+}
+
+.not-front #page-title {
+    margin-bottom: 50px;
+}
+
+.not-front #page-title span {
+    display: inline-block;
+    background-color: #6FBF4D;
+    padding: 5px 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}

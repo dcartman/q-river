@@ -76,9 +76,9 @@
                         <?php if ($site_name): ?>
                             <?php if ($title): ?>
                                 <div id="site-name">
-                                	<strong>
+                                    <strong>
                                         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-                                 	</strong>
+                                    </strong>
                                 </div>
                             <?php else: /* Use h1 when the content title is empty */ ?>
                                 <h1 id="site-name">
@@ -91,14 +91,14 @@
                             <div id="site-slogan"><?php print $site_slogan; ?></div>
                         <?php endif; ?>
                     </div> <!-- /#name-and-slogan -->
-                    
+
                     <?php if ($page['navigation']): ?>
-        				<div id="navigation">
-            				<div class="section clearfix">
-                				<?php print render($page['navigation']); ?>
-            				</div>
-        				</div>
-    				<?php endif; ?>
+                        <div id="navigation">
+                            <div class="section clearfix">
+                                <?php print render($page['navigation']); ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
                 <?php endif; ?>
 
                 <?php print render($page['header']); ?>
@@ -113,11 +113,11 @@
         <?php print $messages; ?>
 
         <div id="main-wrapper">
-        	<div id="main" class="clearfix">
+            <div id="main" class="clearfix">
 
                 <?php if ($page['sidebar_first']): ?>
                     <div id="sidebar-first" class="column sidebar">
-                    	<div class="section">
+                        <div class="section">
                             <?php print render($page['sidebar_first']); ?>
                         </div>
                     </div> <!-- /.section, /#sidebar-first -->
@@ -141,7 +141,7 @@
 
                 <?php if ($page['sidebar_second']): ?>
                     <div id="sidebar-second" class="column sidebar">
-                    	<div class="section">
+                        <div class="section">
                             <?php print render($page['sidebar_second']); ?>
                         </div>
                     </div> <!-- /.section, /#sidebar-second -->
@@ -149,9 +149,9 @@
 
             </div>
         </div> <!-- /#main, /#main-wrapper -->
-        
+
         <div id="footer">
-        	<div class="section">
+            <div class="section">
                 <?php print render($page['footer']); ?>
             </div>
         </div> <!-- /.section, /#footer -->

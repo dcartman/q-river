@@ -4,7 +4,12 @@ core = 7.x
 
 scripts[] = js/custom.js
 
-stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/hero.css
+stylesheets[all][] = css/callouts.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/menus.css
 
 regions[page_top] = Page Top
 regions[hero] = Hero Block

@@ -1,0 +1,17 @@
+
+/* 
+    Document   : hero.css
+    Created on : Dec 26, 2011, 10:17:42 PM
+    Author     : danielcarter
+    Description:
+        Hero Region - front page only.
+*/
+
+/* Hero Region */
+#hero {
+    margin-left: -48px;
+    overflow:hidden;
+    position: relative;
+    width: 1120px;
+
+}
