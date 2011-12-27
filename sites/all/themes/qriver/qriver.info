@@ -1,0 +1,31 @@
+name = Quinnipiac River
+description = Starting from scratch theme.
+core = 7.x
+
+scripts[] = js/custom.js
+
+stylesheets[all][] = css/custom.css
+
+regions[page_top] = Page Top
+regions[hero] = Hero Block
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[callouts] = Callouts
+regions[copyright] = Copyright
+regions[collapsible] = Collapsible
+regions[page_bottom] = Page Bottom
+
+
+features[] = logo
+features[] = favicon
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification

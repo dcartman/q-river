@@ -1,0 +1,252 @@
+
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Drupal or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to arrange the page
+ * in a traditional "Header, sidebars, content, and footer" layout.
+ *
+ * This layout method works reasonably well, but shouldn't be used on a
+ * production site because it can break. For example, if an over-large image
+ * (one that is wider than 20% of the viewport) is in the left sidebar, the
+ * image will overlap with the #content to the right. The exception to this
+ * is IE6 which will just hide the navigation block completely in these
+ * instances due to a positioning bug.
+*/
+
+* { 
+    position:relative; 
+}
+
+body { 
+    color: rgb(153,153,153);
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    color: #555555;
+}
+
+.section {
+    padding: 10px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '.';
+    height: 0px;
+    display:block;
+    visibility: hidden;
+}
+
+.menu li.expanded ul {
+
+}
+
+#page, #navigation {
+    margin: 0 auto;
+    width: 900px;
+    z-index: 10;
+}
+
+#content,
+#sidebar-first,
+#sidebar-second {
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+/* Content Region */
+#content {
+    width: 100%;
+
+}
+
+body.sidebar-first #content {
+    width: 600px;
+    margin-top: 20px;
+    /* left: 20%; /* LTR */
+}
+body.sidebar-first.not-front #content {
+    margin-top: -10px;
+}
+body.sidebar-second #content {
+    width: 600px;
+}
+body.two-sidebars #content {
+    width: 300px;
+    /* left: 20%; */
+}
+
+#content .section {
+    padding-left:25px;
+}
+
+/* Header Region */
+#header .section {
+    padding:8px 10px 10px 10px;
+}
+
+#site-name {
+
+    font-size: 120px;
+    line-height: 90px;
+}
+
+.not-front #site-name {
+
+    font-size: 60px;
+    line-height: 50px;
+
+
+}
+
+#site-name a, #site-name a:visited, #site-name a:hover {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#site-name a span {
+    display: block;
+}
+
+.not-front #page-title {
+    margin-bottom: 50px;
+}
+
+.not-front #page-title span {
+    display: inline-block;
+    background-color: #6FBF4D;
+    padding: 5px 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#navigation {
+    height: 40px;
+    z-index: 11;
+}
+
+#navigation .section {
+    padding: 10px 10px 0px 10px;
+}
+
+#navigation div.contextual-links-wrapper {
+    right: -15px;
+}
+
+#block-system-main-menu {
+    float: left; 
+}
+
+#block-menu-menu-secondary-links {
+    float: right;
+}
+
+#block-system-main-menu ul, #block-menu-menu-secondary-links ul {
+    height: 30px;
+    list-style: none;
+    list-style-image: none;
+    margin: 0px 1em;
+    padding:0px;
+}
+
+/* Clearing all Floats */
+#block-system-main-menu ul li, 
+#block-menu-menu-secondary-links ul li {
+    display: block;
+    float: left;
+}
+
+#block-system-main-menu ul li a, 
+#block-menu-menu-secondary-links ul li a {
+    color: rgb(153, 153, 153);
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#block-system-main-menu ul li a {
+    text-transform: uppercase;
+}
+
+/* Sidebar First */
+#sidebar-first {
+    width: 300px;
+    /* left: -80%; /* LTR */
+}
+
+.not-front #sidebar-first {
+    margin-top: -65px;
+}
+
+#sidebar-first .section {
+    padding-right: 0px;
+}
+
+#sidebar-first .block {
+    margin-bottom: 10px;
+}
+
+/* Sub Navigation */
+
+/* Sidebar First Action Menu */
+.front #sidebar-first #block-block-1 .lower, 
+.front #sidebar-first #block-block-4 .lower {
+    position: absolute;
+}
+
+body.two-sidebars #sidebar-first {
+    left: -60%; /* LTR */
+}
+
+#sidebar-second {
+    float: right; /* LTR */
+    width: 20%;
+}
+
+
+
+/* Hero Region */
+#hero {
+    left:0px;
+    overflow:hidden;
+    position: absolute;
+    right:0px;
+    width: auto;
+
+}
+
+/* Callout Region */
+
+
+/* Footer */
+
+
+/* User Menu */
+#block-system-user-menu .content ul.menu {
+    list-style: none;
+    list-style-image: none;
+    margin: 0px;
+    padding:0px;
+}
+
+#block-system-user-menu .content ul.menu li {
+    list-style: none;
+    list-style-image: none;
+    float: left;
+}
+
+#block-system-user-menu .content ul.menu li a {
+
+}
