@@ -20,6 +20,7 @@
 }
 
 body { 
+    background: #fff url('../images/backgrounds/home/body-background.jpg') no-repeat bottom center;
     color: rgb(153,153,153);
     font-family: Arial;
 }
@@ -48,10 +49,20 @@ h1, h2, h3, h4 {
 
 }
 
-#page, #navigation {
+#page {
     margin: 0 auto;
     width: 1024px;
     z-index: 10;
+}
+
+#main-wrapper {
+    background: url('../images/structure/main-wrapper-background.png') repeat-y top left;
+}
+
+#main {
+    margin: 0 30px;
+    padding: 0;
+    width: 960px; 
 }
 
 #content,
@@ -63,8 +74,6 @@ h1, h2, h3, h4 {
 
 /* Content Region */
 #content {
-    margin: 0 30px;
-    padding: 0 10px;
     width: 960px;
 }
 

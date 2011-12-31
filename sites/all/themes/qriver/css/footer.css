@@ -6,3 +6,11 @@
         Footer Region
 */
 
+#footer {
+    background: rgba(255,255,255,0.6);
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1024px;
+}
+

@@ -9,48 +9,54 @@
 
 /* Navigation */
 #navigation {
-    height: 40px;
-    z-index: 11;
+    bottom: 10px;
+    font-family: "Helvetica Neue", "Helvetica";
+    left: auto;
+    position: absolute;
+    right: 0px;
+    top: auto;
 }
 
 #navigation .section {
-    padding: 10px 10px 0px 10px;
+    padding: 0;
 }
 
 #navigation div.contextual-links-wrapper {
     right: -15px;
 }
 
-#block-system-main-menu {
-    float: left; 
-}
-
-#block-menu-menu-secondary-links {
-    float: right;
-}
-
-#block-system-main-menu ul, #block-menu-menu-secondary-links ul {
-    height: 30px;
+#block-system-main-menu ul{
     list-style: none;
     list-style-image: none;
-    margin: 0px 1em;
-    padding:0px;
+    margin: 0;
+    padding:0;
+}
+
+#block-system-main-menu ul:after {
+    clear:both;
+    content: '.';
+    display: block;
+    height: 0px;
+    visibility: hidden;
 }
 
 /* Main Menu */
-#block-system-main-menu ul li, 
-#block-menu-menu-secondary-links ul li {
+#block-system-main-menu ul li{
     display: block;
     float: left;
+    margin-left: 20px;
 }
 
-#block-system-main-menu ul li a, 
-#block-menu-menu-secondary-links ul li a {
-    color: rgb(153, 153, 153);
+#block-system-main-menu ul li.first {
+    margin-left: 0;
+}
+
+#block-system-main-menu ul li a{
+    color: #727272;
     display: block;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 0;
 }
 
 #block-system-main-menu ul li a {

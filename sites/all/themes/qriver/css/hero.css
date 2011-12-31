@@ -9,9 +9,17 @@
 
 /* Hero Region */
 #hero {
-    margin-left: -48px;
-    overflow:hidden;
-    position: relative;
-    width: 1120px;
+    background: #DDD;
+    height: 490px;
+    width: 1024px;
+}
 
+#hero .section {
+    height: 490px;
+    left: -48px;
+    margin: 0;
+    overflow:hidden;
+    padding: 0;
+    position: absolute;
+    width: 1120px;
 }

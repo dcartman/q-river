@@ -11,6 +11,12 @@
     padding:8px 10px 10px 10px;
 }
 
+#name-and-slogan {
+    float: left;
+    height: 51px;
+    width: 365px;
+}
+
 #site-name {
     font-size: 30px;
     font-family: "Bell MT";
@@ -24,6 +30,14 @@
 
 #site-name a span {
     display: block;
+}
+
+#site-slogan {
+    font-family: "Bell MT";
+    font-style: italic;
+    left: auto;
+    position:absolute;
+    right: 0px;
 }
 
 .not-front #page-title {
