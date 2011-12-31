@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 }
 
 #main {
-    margin: 0 30px;
+    margin: 0 auto;
     padding: 0;
     width: 960px; 
 }
@@ -78,29 +78,18 @@ h1, h2, h3, h4 {
 }
 
 body.sidebar-first #content {
-    width: 600px;
-    margin-top: 20px;
-    left: 20%; /* LTR */
+    width: 620px;
 }
-body.sidebar-first.not-front #content {
-    margin-top: -10px;
-}
+
 body.sidebar-second #content {
-    width: 600px;
+    width: 620px;
 }
-body.two-sidebars #content {
-    width: 300px;
-    left: 20%;
-}
+
 
 /* Sidebar First */
 #sidebar-first {
-    width: 300px;
-    /* left: -80%; /* LTR */
-}
-
-.not-front #sidebar-first {
-    margin-top: -65px;
+    left: -30px;
+    width: 340px;
 }
 
 #sidebar-first .section {
@@ -108,16 +97,12 @@ body.two-sidebars #content {
 }
 
 #sidebar-first .block {
-    margin-bottom: 10px;
+
 }
 
-/* Sidebar First Action Menu */
-body.two-sidebars #sidebar-first {
-    left: -60%; /* LTR */
-}
-
+/* Sidebar second */
 #sidebar-second {
-    float: right; /* LTR */
-    width: 20%;
+    right: -30px;
+    width: 340px;
 }
 

@@ -41,17 +41,17 @@
 }
 
 /* Main Menu */
-#block-system-main-menu ul li{
+#block-menu-block-2 ul li{
     display: block;
     float: left;
     margin-left: 20px;
 }
 
-#block-system-main-menu ul li.first {
+#block-menu-block-2 ul li.first {
     margin-left: 0;
 }
 
-#block-system-main-menu ul li a{
+#block-menu-block-2 ul li a{
     color: #727272;
     display: block;
     font-size: 11px;
@@ -59,7 +59,7 @@
     padding: 0;
 }
 
-#block-system-main-menu ul li a {
+#block-menu-block-2 ul li a {
     text-transform: uppercase;
 }
 

@@ -119,10 +119,10 @@
         <div id="main-wrapper">
             <div id="main" class="clearfix">
                 <?php if ($breadcrumb): ?>
-                    <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+                    <?php //<div id="breadcrumb"><?php print $breadcrumb; </div>?>
                 <?php endif; ?>
 
-                <?php print $messages; ?>
+                
                 <?php if ($page['sidebar_first']): ?>
                     <div id="sidebar-first" class="column sidebar">
                         <div class="section">
@@ -132,6 +132,7 @@
                 <?php endif; ?>
 
                 <div id="content" class="column"><div class="section">
+                        <?php print $messages; ?>
                         <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
                         <a id="main-content"></a>
                         <?php print render($title_prefix); ?>
