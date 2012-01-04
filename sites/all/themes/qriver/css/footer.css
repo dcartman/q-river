@@ -11,6 +11,16 @@
     height: 90px;
     margin: 0 auto;
     padding: 0;
-    width: 1024px;
+    width: 1022px;
 }
 
+
+#footer img{
+	float: left;
+	margin: 0 37px 0 50px;
+}
+
+#footer p.footer-text{
+	font-size: 10px;
+	padding: 10px;
+}

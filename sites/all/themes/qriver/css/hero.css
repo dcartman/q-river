@@ -8,18 +8,49 @@
 */
 
 /* Hero Region */
+
+
 #hero {
     background: #DDD;
-    height: 490px;
+    height: 350px;
     width: 1024px;
 }
 
 #hero .section {
-    height: 490px;
+    height: 350px;
     left: -48px;
     margin: 0;
     overflow:hidden;
     padding: 0;
     position: absolute;
     width: 1120px;
+}
+
+/* Expand Hero on the Front Page */
+body.front #hero {
+    height: 490px;
+}
+
+body.front #hero .section {
+    height: 490px;
+}
+
+#hero h2 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: -11px;
+    z-index: 12;
+    font-family: "georgia", serif;
+    font-size: 100px;
+    color: white;
+    line-height: 100px;
+    left: 80px;
+    font-style: italic;
+    width: 530px;
+}
+
+#hero p {
+	padding: 0;
+	margin: 0;
 }

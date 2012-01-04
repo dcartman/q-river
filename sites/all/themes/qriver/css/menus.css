@@ -9,7 +9,7 @@
 
 /* Navigation */
 #navigation {
-    bottom: 10px;
+    bottom: 27px;
     font-family: "Helvetica Neue", "Helvetica";
     left: auto;
     position: absolute;
@@ -41,14 +41,32 @@
 }
 
 /* Main Menu */
+#block-menu-block-2 ul {
+	margin-right: 30px;	
+}
+
 #block-menu-block-2 ul li{
     display: block;
     float: left;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    margin: 0;
+    padding: 5px 10px;
 }
 
 #block-menu-block-2 ul li.first {
     margin-left: 0;
+}
+
+#block-menu-block-2 ul li.active-trail {
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: white;
+	background-color: #f63;
+}
+
+#block-menu-block-2 ul li.active-trail a{
+	color: white;
 }
 
 #block-menu-block-2 ul li a{
