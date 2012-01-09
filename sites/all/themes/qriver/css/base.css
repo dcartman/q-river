@@ -102,7 +102,15 @@ body.sidebar-second #content {
 
 /* Sidebar second */
 #sidebar-second {
-    right: -30px;
+    right: -31px;
+    top: -91px;
     width: 340px;
 }
+
+
+/* BODY TWEAKS */
+body.page-news h1#page-title{
+	display:none;
+}
+
 

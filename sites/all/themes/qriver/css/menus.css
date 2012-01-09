@@ -62,7 +62,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	color: white;
-	background-color: #f63;
+	background-color: #f2322b;
 }
 
 #block-menu-block-2 ul li.active-trail a{
@@ -97,5 +97,126 @@
 
 #block-system-user-menu .content ul.menu li a {
 
+}
+
+
+/*SUB MENU (second level) */
+#sidebar-second .section {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar-second ul.menu {
+	padding:0;
+	margin:0;
+}
+
+#sidebar-second div.block-menu-block li {
+	display: block;
+	width: 310px;
+	height: 15px;
+	margin: 0;
+	padding: 15px;
+	border-bottom:1px solid #eee;
+	background-color: #bfd8d8;	
+	color: white; 
+	font-family: "Arial", "Verdana", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height:15px;
+	text-transform: uppercase;
+}
+
+#sidebar-second div.block-menu-block li.active-trail {
+	background-color: #f2322b;
+}
+
+#sidebar-second div.block-menu-block li a {
+	color:white;
+	text-decoration:none;
+}
+#sidebar-second div.block-menu-block li a:after{
+    content: "►";
+    text-align:right;
+	float:right;
+	font-size:10px;
+}
+
+#sidebar-second div.block-menu-block li a.active-trail {
+	
+}
+
+
+/*search box above sub menu*/
+
+#sidebar-second #block-search-form{
+	height:144px;
+	width:340px;
+	background-color: #ebebeb;
+	text-align:center;
+}
+#sidebar-second #block-search-form h2{
+	height: 15px;
+	text-align: center;
+	padding:15px;
+	margin:0;
+	width: 310px;
+	color: white; 
+	font-family: "Arial", "Verdana", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height:15px;
+	text-transform: uppercase;
+	background: #59bc23;
+}
+
+/*Recent post AND categories sub menu blocks */
+
+#sidebar-second .block-views {
+	background-color: #f9f9f9;
+	padding: 15px 30px 0 30px;
+}
+
+#sidebar-second .categories-block {
+	padding-bottom: 45px;
+}
+
+#sidebar-second .block-views h2 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Arial", "Verdana", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: black;
+	line-height: 22px;
+	padding-top: 15px; 
+}
+
+#sidebar-second .block-views ul {
+	padding: 0;
+	margin: 0;	
+}
+
+#sidebar-second .block-views li {
+	display: block;
+	font-size:12px;
+	color: #4e7aff;
+	font-family: "Arial", "Verdana", sans-serif;
+	margin: 0;
+	padding: 2px 0 2px 0;
+	
+}
+
+#sidebar-second .block-views li h2 {
+	font-size:12px;
+	font-weight:normal;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	
+}
+#sidebar-second .block-views li a{
+	color: #4e7aff;
+	text-decoration: none;
 }
 
