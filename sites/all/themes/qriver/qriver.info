@@ -10,6 +10,7 @@ stylesheets[all][] = css/hero.css
 stylesheets[all][] = css/callouts.css
 stylesheets[all][] = css/footer.css
 stylesheets[all][] = css/menus.css
+stylesheets[all][] = css/custom.css
 
 regions[page_top] = Page Top
 regions[hero] = Hero Block
