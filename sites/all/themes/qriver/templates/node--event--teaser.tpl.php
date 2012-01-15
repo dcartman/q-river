@@ -80,75 +80,35 @@
 
 
 
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<div id="node-<?php  print $node -> nid;?>" class="<?php  print $classes;?> clearfix"<?php  print $attributes;?>>
 
 
+<?php if (!$page): ?>
 
-    <?php print render($title_prefix); ?>
-
-    <?php if (!$page): ?>
-        <h2 class="node-title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>    
-    <?php else: ?>
-        <!--<h1 class="node-title" <?php print $title_attributes; ?>><?php print $title; ?></h1>-->
-    <?php endif; ?>
-
-    <?php print render($title_suffix); ?>
-           
-    <div class="blog-meta clearfix">
-        <span class="field contributor">
-            <span class="field-label">By</span> 
-            <span class="field-name"><?php print $name; ?></span>            
-        </span>
-    </div>
-    
-    <div class="blog-date">updated <?php print date('g:i A T, D F j, Y', $node->changed); ?></div>
-
-    <div class="content"<?php print $content_attributes; ?>>
-        <?php
-        hide($content['field_tags']);
-        hide($content['field_blog_category']);
-        // We hide the comments and links now so that we can render them later.
-        hide($content['comments']);
-        hide($content['links']);
-		
-		print render($content);
-		
-        ?>
-        <?php if(!$page): ?>
-            <span class="read-more blog-links"><a href="?q=<?php print $content['links']['node']['#links']['node-readmore']['href']; ?>"><?php print $content['links']['node']['#links']['node-readmore']['title']; ?> &gt; </a></span>
-        <?php endif; ?>
-    </div>
-
-
+		<div class="event-date">
+			<?php  
+				//print date('g:i A T, D F j, Y', $node -> changed);
+				print render($content['field_event_date']);
+			?>
+		</div>
 	
-		<div class="news-keywords">
-			<?php print render($content['field_tags']); ?>
-        </div>
-        <hr class="news-divider" />
-        
-        <div class="news-comments">
-        	<?php
-		    $comments_href = (isset($content['links']['comment']['#links']['comment-comments'])) ?
-		            $content['links']['comment']['#links']['comment-comments']['href'] :
-		            "#";
-		    ?>
-		    <?php
-		    $add_comment_href = (isset($content['links']['comment']['#links']['comment-add'])) ?
-		            $node_url."#comment-form-anchor" :
-		            "#comment-form-anchor";
-		    ?>
+ 	    <?php  print render($title_prefix);?>
+        <h2 class="node-title" <?php  print $title_attributes;?>><a href="<?php  print $node_url;?>"><?php  print $title;?></a></h2>    
+	    <?php  print render($title_suffix);?>
+	    	    
+	    <div class="content"<?php  print $content_attributes;?>>
+	        <?php
+			hide($content['field_tags']);
+			hide($content['field_blog_category']);
+			// We hide the comments and links now so that we can render them later.
+			hide($content['comments']);
+			hide($content['links']);
+
+			print render($content);
+	        ?>	        
+	    </div>
+	    
 		
-		
-		    <div class="blog-comments-share">  
-		        <span class="list-comments blog-links"><a href="?q=<?php print $comments_href; ?>">Comments (<?php print $comment_count; ?>) </a></span> | 
-		        <span class="add-comment blog-links"><a href="<?php print $add_comment_href; ?>">Post a Comment</a></span>
-		    </div>
-        </div>
-	
-    
-        <?php if ($page): ?>
-            <a id="comment-form-anchor" >&nbsp;</a>
-        <?php endif; ?>
-        <?php print render($content['comments']); ?>
-        
+<?php endif;?>
+
 </div>
