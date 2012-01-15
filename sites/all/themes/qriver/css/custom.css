@@ -1,0 +1,103 @@
+div.node-blog-post {
+	font-size:12px;
+}
+
+div.node-blog-post h2{
+	font-size: 40px;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	font-style: italic;
+	color: black;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+div.node-blog-post h2 a{
+	color:black;
+	text-decoration:none;
+}
+
+div.node-blog-post #comments h2{
+	font-size:30px;
+}
+
+
+body.not-front.node-type-blog-post h1#page-title{
+	font-size: 40px;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	font-style: italic;
+	color: black;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+div.node-blog-post span.field-label{
+	font-weight: normal;
+	font-family: "Arial", sans-serif;
+	color: #666;
+}
+
+div.node-blog-post span.field-name{
+	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	color: black;
+}
+
+div.news-keywords div.field-label{
+	color: black;
+	font-weight:bold;
+	font-size: 10px;
+	display: inline-block;
+}
+
+div.news-keywords div.field-items{
+	color: black;
+	font-weight:normal;
+	font-size: 10px;
+	display: inline-block;
+}
+
+div.news-keywords div.field-items a{
+	text-decoration: none;
+	color: black;
+}
+
+div.news-keywords div.field-items div.field-item{
+	display:inline;
+	padding-left:8px;
+}
+
+div.node-blog-post span.read-more, div.node-blog-post span.read-more a {
+	color: black;
+	font-size: 12px;	
+}
+
+div.news-keywords{
+	margin-top: 15px;
+}
+
+hr.news-divider {
+	color: #ccc;
+	background-color: #ccc;
+	border: 0;
+	margin:20px 0;
+}
+
+div.blog-comments-share {
+	font-size:12px;
+	font-family:"Arial", sans-serif;
+	font-weight:regular;
+	float:right;
+}
+
+div.blog-comments-share a {
+	text-decoration: underline;
+	color: #3366ff;
+}
+
+div#comments div.comment {
+	margin-top:20px;
+	border-top: 1px solid #ccc;
+	padding:15px 0 15px 20px;
+}
