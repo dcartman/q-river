@@ -101,3 +101,89 @@ div#comments div.comment {
 	border-top: 1px solid #ccc;
 	padding:15px 0 15px 20px;
 }
+
+
+
+
+/*********************************
+ * EVENTS LIST AND CALENDAR ******
+ * ******************************/
+
+.page-the-fund-events h1{
+	font-size: 20px;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	font-style: italic;
+	color: black;
+	margin:0px;
+}
+
+div.view-events div.node-event{
+	margin-bottom:10px;
+}
+
+div.view-events div.node-event div.event-date{
+	width:80px;
+	height:100px;
+	float:left;
+    color:white;
+    background-color: #59bc23;
+}
+
+div.event-date div.day {
+	font-size: 30px;
+	line-height: 70px;
+	height: 70px;
+	text-align: center;
+	border-bottom: 1px solid white;	
+}
+
+div.event-date div.month{
+	font-size:14px;
+	text-transform: uppercase;
+	line-height:29px;
+	height: 29px;
+	text-align:center;
+}
+
+div.event-details {
+	height: 70px;
+	width: 470px;
+	padding: 15px;
+	background-color: #f9f9f9;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+div.event-details h2 {
+	font-size: 20px;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	font-style: italic;
+	color: black;
+	margin:0px;
+}
+
+div.event-details h2 a {
+	color: black;
+}
+
+div.event-details div.street-address{
+	display:inline;
+}
+
+div.event-details div.street-address:after{
+	content: ", ";
+}
+
+div.adr span.fn:after{
+	content: ", ";
+}
+
+div.event-details div.country-name{
+	display:none;
+}
+
+div.event-details div.map-link {
+	display:none;
+}

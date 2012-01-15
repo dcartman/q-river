@@ -83,32 +83,52 @@
 <div id="node-<?php  print $node -> nid;?>" class="<?php  print $classes;?> clearfix"<?php  print $attributes;?>>
 
 
-<?php if (!$page): ?>
-
-		<div class="event-date">
-			<?php  
-				//print date('g:i A T, D F j, Y', $node -> changed);
-				print render($content['field_event_date']);
-			?>
-		</div>
+	<?php if (!$page): ?>
 	
- 	    <?php  print render($title_prefix);?>
-        <h2 class="node-title" <?php  print $title_attributes;?>><a href="<?php  print $node_url;?>"><?php  print $title;?></a></h2>    
-	    <?php  print render($title_suffix);?>
-	    	    
-	    <div class="content"<?php  print $content_attributes;?>>
-	        <?php
-			hide($content['field_tags']);
-			hide($content['field_blog_category']);
-			// We hide the comments and links now so that we can render them later.
-			hide($content['comments']);
-			hide($content['links']);
-
-			print render($content);
-	        ?>	        
-	    </div>
-	    
+		<div class="event-date">
+			<div class="day">
+				<?php  
+					//print date('g:i A T, D F j, Y', $node -> changed);
+					print date('j', strtotime($node->field_event_date['und'][0]['value']));				
+				?>
+			</div>
+			<div class="month">
+				<?php  
+					//print date('g:i A T, D F j, Y', $node -> changed);
+					print date('M', strtotime($node->field_event_date['und'][0]['value']));
+				?>	
+			</div>
+		</div>
 		
-<?php endif;?>
+		<div class="event-details">
+			<?php  print render($title_prefix);?>
+			<h2 class="node-title" <?php  print $title_attributes;?>><a href="<?php  print $node_url;?>"><?php  print $title;?></a></h2>    
+			<?php  print render($title_suffix);?>
+	
+			
+			<div class="content"<?php  print $content_attributes;?>>
+				<?php
+					hide($content['field_tags']);
+					hide($content['field_event_date']);
+					hide($content['field_event_organizer']);
+					// We hide the comments and links now so that we can render them later.
+					hide($content['comments']);
+					hide($content['links']);
+					
+					print render($content['field_event_location']);
+				?>
+				
+				<div class="field field-name-field-event-time field-label-inline clearfix">
+					<div class="field-label">Time:&nbsp;</div>
+					<div class="field-items"><?php print date('g:iA', strtotime($node->field_event_date['und'][0]['value'])); ?></div>
+				</div>
+				
+				<?php	
+					print render($content['field_event_organizer']);
+					
+				?>	        
+			</div>	    	   						
+		</div>		
+	<?php endif; ?>
 
 </div>
