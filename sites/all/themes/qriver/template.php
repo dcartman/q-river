@@ -36,4 +36,16 @@ function qriver_date_nav_title($params) {
     return $title;
   }  
 }
+
+
+/**
+ * Implements hook_form_alter().
+ *
+ * Courtesy of JohnAlbin
+ */
+function qriver_form_search_block_form_alter(&$form, &$form_state) {
+  $form['actions']['submit']['#type'] = 'image_button';
+  $form['actions']['submit']['#src'] = drupal_get_path('theme', 'qriver') . '/images/search_button.png';
+}
+
 ?>

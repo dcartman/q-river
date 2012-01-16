@@ -1,3 +1,7 @@
+/**************************
+ * NEWS AND NEWS POSTS
+ */
+
 div.node-blog-post {
 	font-size:12px;
 }
@@ -102,6 +106,55 @@ div#comments div.comment {
 	padding:15px 0 15px 20px;
 }
 
+
+/******************
+ * SEARCH BOX
+ */
+
+#sidebar-second div.block-search .content{
+	padding:20px;
+}
+
+#sidebar-second form#search-block-form input.form-text{
+	width:248px;
+	height:38px;
+	border: 0;
+	padding: 3px;
+	outline: 0 !important;
+	font-size:14px;
+	top: -16px; 
+}
+
+#sidebar-second form#search-block-form input.form-submit{
+	padding: 3px 3px 3px 0;
+	background-color: white;
+	overflow: hidden;
+	border: 0;
+	font-size:14px;
+	margin-left: -4px;
+}
+
+
+/*****************
+ * NEWS BLOCK BORDERS
+ */
+
+#sidebar-second #block-views-archive-block{
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+#sidebar-second #block-views-recent-news-posts-block{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+#sidebar-second #block-views-news-categories-block{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
 
 
 
