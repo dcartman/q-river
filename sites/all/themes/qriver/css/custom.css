@@ -227,6 +227,8 @@ div.small-calendar .content .view-header h3 a{
 div.small-calendar .content .view-header ul.pager{
 	width:100%;
 	top:0;
+	position:absolute;
+	z-index:1;
 }
 
 #sidebar-second .small-calendar .content .view-header ul.pager li.date-prev, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next{
