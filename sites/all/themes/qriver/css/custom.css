@@ -109,6 +109,9 @@ div#comments div.comment {
  * EVENTS LIST AND CALENDAR ******
  * ******************************/
 
+/*****************
+ * EVENT TEASERS
+ */
 .page-the-fund-events h1{
 	font-size: 20px;
 	font-family: "Georgia", serif;
@@ -187,3 +190,97 @@ div.event-details div.country-name{
 div.event-details div.map-link {
 	display:none;
 }
+
+
+/**********************
+ * MINI CALENDAR BLOCKS
+ */
+
+#sidebar-second .small-calendar {
+	padding:0;
+	margin-bottom: 10px;	
+}
+
+div.small-calendar .content .view-header{
+	background-color: #59bc23;
+	height: 45px;
+	text-align:center;
+}
+
+div.small-calendar .content .date-nav-wrapper{
+	padding:0;
+	margin: 0;
+}
+
+div.small-calendar .content .view-header h3{
+	font-size:14px;
+	font-weight:bold;
+	line-height:45px;
+	color:white;
+	text-transform: uppercase;
+}
+
+div.small-calendar .content .view-header h3 a{
+	color:white;
+}
+
+div.small-calendar .content .view-header ul.pager{
+	width:100%;
+	top:0;
+}
+
+#sidebar-second .small-calendar .content .view-header ul.pager li.date-prev, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next{
+	margin:0;
+	padding:0;
+	border-radius:0;
+	-moz-border-radius:0;
+	color: white;
+	height:45px;
+	line-height:45px;
+	font-size:14px;
+	text-align:center;
+	width:55px;	
+	background-color: #4da01e;
+}
+
+#sidebar-second .small-calendar .content .view-header ul.pager li.date-prev a, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next a{
+	color:white;
+}
+
+
+div.small-calendar .view-content{
+	height: 225px;
+	background-color: #ebebeb;
+	padding: 0 10px 25px 10px;
+}
+
+div.small-calendar .view-content .calendar-calendar {
+	width: 320px;
+	
+}
+
+div.small-calendar .view-content .calendar-calendar th.days{
+	border: 0;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:24px;
+	height:24px;
+}
+
+
+div.small-calendar .view-content .calendar-calendar tr td {
+	background-color: #e3e3e3;
+	height: 38px;
+	border: 2px solid #ebebeb;
+	text-align:center;
+	line-height:38px;
+	font-size: 12px;
+}
+
+div.small-calendar .view-content .calendar-calendar tr td.empty {
+	background-color: #ebebeb;
+}
+
+
+
+
