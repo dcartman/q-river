@@ -134,12 +134,44 @@ div#comments div.comment {
 	margin-left: -4px;
 }
 
+/*****************
+ * NEWS PAGER
+ */
+
+#block-system-main div.view-news-posts div.item-list ul.pager{
+	margin-top:30px;
+	left: 250px;
+}
+
+#block-system-main div.view-news-posts div.item-list ul.pager li{
+	margin:0;
+	padding:0 5px;
+}
+
+#block-system-main div.view-news-posts ul.pager li.pager-previous a{
+	display:inline-block;
+	width:23px;
+	height:23px;
+	font-size:0;
+	background: url('../images/green_page_left.png');
+	top:-16px;
+}
+
+#block-system-main div.view-news-posts ul.pager li.pager-next a{
+	display:inline-block;
+	width:23px;
+	height:23px;
+	font-size:0;
+	background: url('../images/green_page_right.png');
+	top:-16px;
+}
+
 
 /*****************
  * NEWS BLOCK BORDERS
  */
 
-#sidebar-second #block-views-archive-block{
+#sidebar-second div.news-archive{
 	border-top:1px solid black;
 	border-left:1px solid black;
 	border-right:1px solid black;
