@@ -54,3 +54,43 @@ body.front #hero .section {
 	padding: 0;
 	margin: 0;
 }
+
+
+/*****************
+ * HERO SLIDESHOW
+ */
+
+div.views-slideshow-controls-bottom {
+	position:absolute;
+	top: 100px;
+	left: 490px;
+	z-index: 10;	
+}
+
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item{
+	display:inline-block;
+	margin: 0 10px 0 0;
+}
+
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item div.views-content-field-slide-image {
+	text-align:center;
+	width:100px;
+	height:100px;
+}
+
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item div.views-content-field-slide-image img{
+	margin-top:30px;
+	z-index:11;
+}
+
+
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active div.views-content-field-slide-image img{
+	border:3px solid white;
+}
+
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active div.views-content-field-slide-image:after{
+	content: "\25bc";
+	font-size: 40px;
+	color:white;
+	margin-top:-20px;
+}
