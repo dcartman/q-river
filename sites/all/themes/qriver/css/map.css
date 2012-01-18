@@ -1,0 +1,13 @@
+#foot {
+	width: 930px;
+	height: 40px;
+	z-index: 10;
+}
+.footing {
+	background-image: url('../images/dot.png');
+	background-repeat: repeat;
+	color: #f1f1f1;
+	font-size: 0.8em;
+	font-family: Arial;
+	padding: 5px;
+}

@@ -1,0 +1,114 @@
+/* CSS Document */
+
+
+html, body {width:100%; height:100%}
+html {overflow: hidden}
+body {
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-color:#ffffff;
+	}
+	
+ img {
+  border: none;
+
+ } 
+
+
+textarea {overflow-x: hidden; overflow-y: scroll}
+
+#map{
+margin-top:0;
+width:100%;
+
+height:100%;
+background-color: #ffffff;
+z-index:1;
+padding-bottom:50px; 
+
+}
+
+#foot{
+width:100%;
+height:40px;
+position:absolute;
+bottom:0px;
+
+z-index:10;	
+}
+.footing{
+background-image:
+url('../images/dot.png');
+background-repeat: repeat;
+color:#f1f1f1;
+font-size:0.8em;
+font-family: Arial;
+padding:5px;
+}
+
+.go a {
+color:#99ffff;
+}
+
+.go a:hover {
+ color:#ffff00;
+}
+
+.about{
+color: #333333;
+font-size:0.8;
+}
+a {
+ color: #003366;
+}
+
+a:hover {
+ color:#333333;
+}
+
+#menu a{
+color:#4587b8;
+text-decoration:none;
+font-size:0.8em;
+}
+
+.title{
+	width:257px;
+	height:84px;
+	overflow:hidden;
+	z-index:3;
+	position:absolute;
+	top:9px;
+	margin-left:10%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
+	font-size:1.1em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	left: -123px;
+}
+
+.pic{
+margin-top:5px;
+margin-left:20px;
+
+}
+
+.iwContainer {
+    /*
+  width: 650px;
+  height: 480px;
+    */
+
+}
+
+.boxtitle{
+    font-size:1.1em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #333333;
+	
+}
+
+.boxdescription{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #666666;
+    
+}

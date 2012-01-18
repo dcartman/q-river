@@ -27,3 +27,18 @@ nbproject/project.properties
 
 nbproject/project.xml
 /sites/default/settings.php
+nbproject/configs/Live.properties
+
+sites/map_files/.DS_Store
+
+sites/all/themes/qriver/images/.DS_Store
+
+sites/all/themes/qriver/.DS_Store
+
+sites/all/themes/.DS_Store
+
+sites/all/.DS_Store
+
+sites/.DS_Store
+
+.DS_Store

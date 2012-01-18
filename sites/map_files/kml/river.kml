@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Quinnipiac River</name>
+  <description><![CDATA[]]></description>
+  <NetworkLink>
+    <name>Quinnipiac River</name>
+    <Link>
+      <href>http://maps.google.com/maps/ms?ie=UTF8&amp;t=p&amp;hl=en&amp;vps=1&amp;jsv=165c&amp;oe=UTF8&amp;msa=0&amp;msid=102947867496481583938.00046ca3931587a3da89e&amp;output=kml</href>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>
