@@ -39,7 +39,7 @@ body.front #hero .section {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: -11px;
+    bottom: 25px;
     z-index: 12;
     font-family: "georgia", serif;
     font-size: 100px;
@@ -60,6 +60,36 @@ body.front #hero .section {
  * HERO SLIDESHOW
  */
 
+
+div#hero div.views_slideshow_main div.views-field.views-field-title{
+	position: absolute;
+	top: 175px;
+	left: 490px;
+	color: white;
+	font-family: "Georgia", serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	width: 570px;
+}
+
+
+div#hero div.views_slideshow_main div.views-field.views-field-field-link{
+	position: absolute;
+	left: 490px;
+	top: 275px;
+	color: white;
+	font-size: 15px;
+	z-index: 11;
+	font-family: "Arial", sans-serif;
+	font-weight:bold;
+}
+
+div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
+	color: white;
+	text-decoration:none;
+}
+
 div.views-slideshow-controls-bottom {
 	position:absolute;
 	top: 100px;
@@ -79,18 +109,131 @@ div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item div.vie
 }
 
 div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item div.views-content-field-slide-image img{
-	margin-top:30px;
 	z-index:11;
 }
 
 
 div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active div.views-content-field-slide-image img{
 	border:3px solid white;
+	width:94px;
+	height:44px;
 }
 
 div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active div.views-content-field-slide-image:after{
+	position:absolute;
 	content: "\25bc";
-	font-size: 40px;
+	font-size: 30px;
 	color:white;
-	margin-top:-20px;
+	top:35px;
+	display:block;
+	text-align:center;
+	width:100%;
+}
+
+
+/**********************
+ * FRONT NEWS SCROLLER
+ */
+
+div#highlighted {
+	position:absolute;
+	left: -10px;
+	top: -45px;
+	height: 60px;
+	width: 422px;
+	color: white;
+	background-color: #59bc23;
+	overflow: hidden;
+	z-index: 12;
+}
+
+div#highlighted .views-field-title{
+	display:inline;
+	font-size: 14px;
+	font-weight: bold;
+}
+div#highlighted .views-field-title a{
+	color:white;
+}
+
+div#highlighted .views-field-created{
+	display:inline;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:4px;
+}
+div#highlighted .views-field-body{
+	font-size:12px;
+}
+
+
+div#highlighted .view-content{
+	width:307px;
+	padding: 8px 15px 8px 20px;
+	float:left;
+	display:block;	
+}
+
+div#highlighted .view-content p {
+	margin: 0;
+	padding: 0;
+}
+div#highlighted .item-list {
+	display:block;
+	float:left;
+	width: 79px;
+	height: 60px;
+	text-align:center;
+	border-left: 1px solid #3e8318;
+	background-color: #4ca01e;
+	color: white;
+}
+
+div#highlighted .item-list a{
+	color: white;
+}
+
+div#highlighted ul.pager li.pager-current{
+	display:none;
+}
+
+div#highlighted div.view-news-posts .item-list ul.pager{
+	margin: 27px 0 0 0;
+	padding: 0;
+	height: 60px;
+	
+}
+div#highlighted div.view-news-posts .item-list ul.pager li {
+	margin:0;
+	padding:0;
+	height:30px;
+}
+
+div#highlighted div.view-news-posts ul.pager li.pager-previous{
+	border-right:1px solid white;
+	padding: 5px 0 0 0;
+	margin-right:-2px;
+}
+div#highlighted div.view-news-posts ul.pager li.pager-next{
+	border-left:1px solid white;
+	padding: 5px 0 0 0;
+	margin-left:-3px;
+}
+
+div#highlighted div.view-news-posts ul.pager li.pager-previous a{
+	display:inline-block;
+	width:19px;
+	height:10px;
+	font-size:0;
+	background: url('../images/home_page_left.png');
+	top:-16px;
+}
+
+div#highlighted div.view-news-posts ul.pager li.pager-next a{
+	display:inline-block;
+	width:19px;
+	height:10px;
+	font-size:0;
+	background: url('../images/home_page_right.png');
+	top:-16px;
 }
