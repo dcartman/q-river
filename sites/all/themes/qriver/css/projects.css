@@ -1,0 +1,65 @@
+/* 
+    Document   : projects
+    Created on : Jan 18, 2012, 9:24:05 PM
+    Author     : danielcarter
+    Description:
+        Projects page
+*/
+
+tr.odd {
+    background: white;
+}
+
+tr.even {
+    background: #fafafa;
+}
+
+#block-views-projects-and-reports-block .view-content table thead {
+    background: white;
+}
+
+#block-views-projects-and-reports-block .view-content table thead tr {
+    height: 40px;
+    vertical-align: bottom;
+}
+
+#block-views-projects-and-reports-block .view-content table.sticky-header {
+    z-index: 100;
+}
+
+#block-views-projects-and-reports-block .view-content table th, 
+#block-views-projects-and-reports-block .view-content table td {
+    color:black;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#block-views-projects-and-reports-block .view-content table thead th,
+#block-views-projects-and-reports-block .view-content table thead th a {
+    font-size: 15px;
+    color: black;
+}
+
+#block-views-projects-and-reports-block .view-content table thead th a:hover {
+    text-decoration: underline;
+}
+
+#block-views-projects-and-reports-block .views-field-field-project-organization {
+    width: 240px;
+}
+
+#block-views-projects-and-reports-block .views-field-field-project-date-issued {
+    width: 120px;
+}
+
+#block-views-projects-and-reports-block .views-field-field-project-amount {
+    width: 100px;
+}
+
+#block-views-projects-and-reports-block .views-field-title {
+    width: 190px;
+}
+
+#block-views-projects-and-reports-block .views-field-field-project-description {
+    width: 290px;
+}
