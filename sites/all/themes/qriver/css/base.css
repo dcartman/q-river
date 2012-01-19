@@ -85,6 +85,9 @@ body.sidebar-second #content {
     width: 620px;
 }
 
+body.sidebar-second.page-node-4 #content {
+    width: 960px;
+}
 
 /* Sidebar First */
 #sidebar-first {
@@ -105,6 +108,10 @@ body.sidebar-second #content {
     right: -31px;
     top: -91px;
     width: 340px;
+}
+
+body.page-node-4 #sidebar-second {
+    position: absolute;
 }
 
 
