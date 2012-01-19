@@ -67,11 +67,14 @@ body.front #hero .section {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-title{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-title{
 >>>>>>> front page
+=======
 div#hero div.views_slideshow_main div.views-field.views-field-title{
+>>>>>>> rename some div references
 	position: absolute;
 	top: 175px;
 	left: 490px;
@@ -85,11 +88,14 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-field-link{
 >>>>>>> front page
+=======
 div#hero div.views_slideshow_main div.views-field.views-field-field-link{
+>>>>>>> rename some div references
 	position: absolute;
 	left: 490px;
 	top: 275px;
@@ -101,11 +107,14 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-field-link a{
 >>>>>>> front page
+=======
 div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
+>>>>>>> rename some div references
 	color: white;
 	text-decoration:none;
 }
