@@ -71,6 +71,7 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-title{
 >>>>>>> front page
+div#hero div.views_slideshow_main div.views-field.views-field-title{
 	position: absolute;
 	top: 175px;
 	left: 490px;
@@ -88,6 +89,7 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-field-link{
 >>>>>>> front page
+div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 	position: absolute;
 	left: 490px;
 	top: 275px;
@@ -103,6 +105,7 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
 =======
 div#block-views-front-slideshow-block div.views-field.views-field-field-link a{
 >>>>>>> front page
+div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
 	color: white;
 	text-decoration:none;
 }
