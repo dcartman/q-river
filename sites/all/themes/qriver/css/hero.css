@@ -66,7 +66,11 @@ body.front #hero .section {
  */
 
 
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-title{
+=======
+div#block-views-front-slideshow-block div.views-field.views-field-title{
+>>>>>>> front page
 	position: absolute;
 	top: 175px;
 	left: 490px;
@@ -79,7 +83,11 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 }
 
 
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-field-link{
+=======
+div#block-views-front-slideshow-block div.views-field.views-field-field-link{
+>>>>>>> front page
 	position: absolute;
 	left: 490px;
 	top: 275px;
@@ -90,7 +98,11 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 	font-weight:bold;
 }
 
+<<<<<<< HEAD
 div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
+=======
+div#block-views-front-slideshow-block div.views-field.views-field-field-link a{
+>>>>>>> front page
 	color: white;
 	text-decoration:none;
 }
@@ -128,6 +140,7 @@ div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active 
 	position:absolute;
 	content: "\25bc";
 	font-size: 30px;
+<<<<<<< HEAD
 	color:white;
 	top:35px;
 	display:block;
@@ -159,6 +172,39 @@ div#highlighted .views-field-title{
 }
 div#highlighted .views-field-title a{
 	color:white;
+=======
+	color:white;
+	top:35px;
+	display:block;
+	text-align:center;
+	width:100%;
+}
+
+
+/**********************
+ * FRONT NEWS SCROLLER
+ */
+
+div#highlighted {
+	position:absolute;
+	left: -10px;
+	top: -45px;
+	height: 60px;
+	width: 422px;
+	color: white;
+	background-color: #59bc23;
+	overflow: hidden;
+	z-index: 12;
+}
+
+div#highlighted .views-field-title{
+	display:inline;
+	font-size: 14px;
+	font-weight: bold;
+}
+div#highlighted .views-field-title a{
+	color:white;
+>>>>>>> front page
 }
 
 div#highlighted .views-field-created{
