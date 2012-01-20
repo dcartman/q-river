@@ -44,7 +44,7 @@ body.front #hero .section {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: -11px;
+    bottom: -15px;
     z-index: 12;
     font-family: "georgia", serif;
     font-size: 100px;
@@ -53,6 +53,7 @@ body.front #hero .section {
     left: 80px;
     font-style: italic;
     width: 530px;
+    text-shadow: 3px 3px 8px black;
 }
 
 #hero p {
@@ -76,6 +77,7 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 	font-weight: bold;
 	font-style: italic;
 	width: 570px;
+        text-shadow: 3px 3px 8px black;
 }
 
 
@@ -88,11 +90,14 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 	z-index: 11;
 	font-family: "Arial", sans-serif;
 	font-weight:bold;
+        text-shadow: 3px 3px 8px black;
 }
 
 div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
 	color: white;
 	text-decoration:none;
+        text-shadow: 3px 3px 8px black;
+        
 }
 
 div.views-slideshow-controls-bottom {
@@ -168,7 +173,7 @@ div#highlighted .views-field-created{
 	margin-left:4px;
 }
 div#highlighted .views-field-body{
-	font-size:12px;
+	font-size:12px;	
 }
 
 
@@ -182,6 +187,7 @@ div#highlighted .view-content{
 div#highlighted .view-content p {
 	margin: 0;
 	padding: 0;
+	color:white;
 }
 div#highlighted .item-list {
 	display:block;
@@ -241,4 +247,14 @@ div#highlighted div.view-news-posts ul.pager li.pager-next a{
 	font-size:0;
 	background: url('../images/home_page_right.png');
 	top:-16px;
+}
+
+
+/**************************
+ * REMOVE HERO FOR MAP NODE
+ */
+
+body.page-node-5 #hero{
+	height: 0px;	
+	
 }
