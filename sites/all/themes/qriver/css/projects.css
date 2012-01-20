@@ -64,6 +64,22 @@ tr.even {
     width: 290px;
 }
 
+/***********
+ * Key words
+ */
+ #block-tagclouds-1 h2 {
+     font-size: 15px;
+     margin-bottom: 5px;
+ }
+ 
+ #block-tagclouds-1 .content {
+     padding-right: 20px;
+ }
+ 
+ .tagclouds-term a.tagclouds {
+     color: #6d9eae;
+ }
+
 /*************************
  * INDIVIDUAL GRANT VIEW
  */

@@ -53,6 +53,7 @@ body.front #hero .section {
     left: 80px;
     font-style: italic;
     width: 530px;
+    text-shadow: 3px 3px 8px black;
 }
 
 #hero p {
@@ -76,6 +77,7 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 	font-weight: bold;
 	font-style: italic;
 	width: 570px;
+        text-shadow: 3px 3px 8px black;
 }
 
 
@@ -88,11 +90,14 @@ div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 	z-index: 11;
 	font-family: "Arial", sans-serif;
 	font-weight:bold;
+        text-shadow: 3px 3px 8px black;
 }
 
 div#hero div.views_slideshow_main div.views-field.views-field-field-link a{
 	color: white;
 	text-decoration:none;
+        text-shadow: 3px 3px 8px black;
+        
 }
 
 div.views-slideshow-controls-bottom {

@@ -396,5 +396,35 @@ div.small-calendar .view-content .calendar-calendar tr td.has-events a{
 }
 
 
+/*********
+ * Did you know blocks
+ */
 
-
+ .block-block.did-you-know {
+     background-color: #6d9eae;
+     color: white;
+     margin-top: 10px;
+     padding: 15px;
+ }
+ 
+ .block-block.did-you-know h2{
+     color: white;
+     font-family: Georgia;
+     font-size: 19px;
+     font-weight: normal;
+     font-style: italic;
+     margin: 0px 0px 5px 0px;
+ }
+ 
+ .block-block.did-you-know .content {
+     font-size: 12px;
+ }
+ 
+ .block-block.did-you-know .content p {
+     color: white;
+     margin: 2px 0px;
+ }
+ 
+ .block-block.did-you-know .content a {
+     color: white;
+ }
