@@ -1,209 +1,209 @@
 
 /*************************
  * OVERALL STUFF
- */
+*/
 
 h1 {
-	font-family: "Georgio", serif;
-	font-size:20px;
-	font-style:italic;
+    font-family: "Georgia", serif;
+    font-size:20px;
+    font-style:italic;
 }
 
 p {
-	font-size:12px;
-	color: #666;
+    font-size:12px;
+    color: #666;
 }
 
 /**************************
  * NEWS AND NEWS POSTS
- */
+*/
 
 div.node-blog-post {
-	font-size:12px;
+    font-size:12px;
 }
 
 div.node-blog-post h2{
-	font-size: 40px;
-	font-family: "Georgia", serif;
-	font-weight: normal;
-	font-style: italic;
-	color: black;
-	margin-top:40px;
-	margin-bottom:20px;
+    font-size: 40px;
+    font-family: "Georgia", serif;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    margin-top:40px;
+    margin-bottom:20px;
 }
 
 div.node-blog-post h2 a{
-	color:black;
-	text-decoration:none;
+    color:black;
+    text-decoration:none;
 }
 
 div.node-blog-post #comments h2{
-	font-size:30px;
+    font-size:30px;
 }
 
 
 body.not-front.node-type-blog-post h1#page-title{
-	font-size: 40px;
-	font-family: "Georgia", serif;
-	font-weight: normal;
-	font-style: italic;
-	color: black;
-	margin-top:40px;
-	margin-bottom:20px;
+    font-size: 40px;
+    font-family: "Georgia", serif;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    margin-top:40px;
+    margin-bottom:20px;
 }
 
 div.node-blog-post span.field-label{
-	font-weight: normal;
-	font-family: "Arial", sans-serif;
-	color: #666;
+    font-weight: normal;
+    font-family: "Arial", sans-serif;
+    color: #666;
 }
 
 div.node-blog-post span.field-name{
-	font-weight: bold;
-	font-family: "Arial", sans-serif;
-	color: black;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: black;
 }
 
 div.news-keywords div.field-label{
-	color: black;
-	font-weight:bold;
-	font-size: 10px;
-	display: inline-block;
+    color: black;
+    font-weight:bold;
+    font-size: 10px;
+    display: inline-block;
 }
 
 div.news-keywords div.field-items{
-	color: black;
-	font-weight:normal;
-	font-size: 10px;
-	display: inline-block;
+    color: black;
+    font-weight:normal;
+    font-size: 10px;
+    display: inline-block;
 }
 
 div.news-keywords div.field-items a{
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 div.news-keywords div.field-items div.field-item{
-	display:inline;
-	padding-left:8px;
+    display:inline;
+    padding-left:8px;
 }
 
 div.node-blog-post span.read-more, div.node-blog-post span.read-more a {
-	color: black;
-	font-size: 12px;	
+    color: black;
+    font-size: 12px;	
 }
 
 div.news-keywords{
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 hr.news-divider {
-	color: #ccc;
-	background-color: #ccc;
-	border: 0;
-	margin:20px 0;
+    color: #ccc;
+    background-color: #ccc;
+    border: 0;
+    margin:20px 0;
 }
 
 div.blog-comments-share {
-	font-size:12px;
-	font-family:"Arial", sans-serif;
-	font-weight:normal;
-	float:right;
+    font-size:12px;
+    font-family:"Arial", sans-serif;
+    font-weight:normal;
+    float:right;
 }
 
 div.blog-comments-share a {
-	text-decoration: underline;
-	color: #3366ff;
+    text-decoration: underline;
+    color: #3366ff;
 }
 
 div#comments div.comment {
-	margin-top:20px;
-	border-top: 1px solid #ccc;
-	padding:15px 0 15px 20px;
+    margin-top:20px;
+    border-top: 1px solid #ccc;
+    padding:15px 0 15px 20px;
 }
 
 
 /******************
  * SEARCH BOX
- */
-
-#sidebar-second div.block-search .content{
-	padding:20px;
+*/
+#sidebar-second div.block-search .content,
+#sidebar-second div.block-webform .content{
+    padding:20px;
 }
 
-#sidebar-second form#search-block-form input.form-text{
-	width:248px;
-	height:38px;
-	border: 0;
-	padding: 3px;
-	outline: 0 !important;
-	font-size:14px;
-	top: -16px; 
+#sidebar-second form#search-block-form input.form-text,
+#sidebar-second #block-webform-client-block-186 input.form-text{
+    width:248px;
+    height:38px;
+    border: 0;
+    padding: 3px;
+    outline: 0 !important;
+    font-size:14px;
+    top: -16px; 
 }
 
-#sidebar-second form#search-block-form input.form-submit{
-	padding: 3px 3px 3px 0;
-	background-color: white;
-	overflow: hidden;
-	border: 0;
-	font-size:14px;
-	margin-left: -4px;
+#sidebar-second form#search-block-form input.form-submit,
+#sidebar-second #block-webform-client-block-186 input.form-submit{
+    cursor: pointer;
+    padding: 3px 3px 3px 0;
+    background-color: white;
+    overflow: hidden;
+    border: 0;
+    font-size:14px;
+    margin-left: -4px;
+}
+
+#sidebar-second #block-webform-client-block-186 input.form-text {
+    left: -21px;
+}
+
+#sidebar-second #block-webform-client-block-186 input.form-submit {
+    background: transparent url('../images/red_go_button') no-repeat center;
+    border-radius: 3px;
+    font-size: 0px;
+    height: 40px;
+    width: 44px;
+}
+
+#sidebar-second #block-webform-client-block-186 .form-actions {
+    background: white;
+    padding: 2px;
+    position: absolute;
+    right: 0px;
+    top: -32px;
 }
 
 /************************
  * NEWS AND EVENTS PAGERs
- */
+*/
 
 #block-system-main div.view-news-posts div.item-list ul.pager, #block-system-main div.view-events div.item-list ul.pager{
-	margin-top:30px;
-	left: 250px;
+    margin-top:30px;
+    left: 250px;
 }
 
 #block-system-main div.view-news-posts div.item-list ul.pager li, #block-system-main div.view-events div.item-list ul.pager li{
-	margin:0;
-	padding:0 5px;
+    margin:0;
+    padding:0 5px;
 }
 
 #block-system-main div.view-news-posts ul.pager li.pager-previous a, #block-system-main div.view-events ul.pager li.pager-previous a{
-	display:inline-block;
-	width:23px;
-	height:23px;
-	font-size:0;
-	background: url('../images/blue_page_left.png');
-	top:-16px;
+    display:inline-block;
+    width:23px;
+    height:23px;
+    font-size:0;
+    background: url('../images/blue_page_left.png');
+    top:-16px;
 }
 
 #block-system-main div.view-news-posts ul.pager li.pager-next a, #block-system-main div.view-events ul.pager li.pager-next a{
-	display:inline-block;
-	width:23px;
-	height:23px;
-	font-size:0;
-	background: url('../images/blue_page_right.png');
-	top:-16px;
+    display:inline-block;
+    width:23px;
+    height:23px;
+    font-size:0;
+    background: url('../images/blue_page_right.png');
+    top:-16px;
 }
-
-
-/*****************
- * NEWS BLOCK BORDERS
- */
-
-#sidebar-second div.news-archive{
-	border-top:1px solid black;
-	border-left:1px solid black;
-	border-right:1px solid black;
-}
-
-#sidebar-second #block-views-recent-news-posts-block{
-	border-left:1px solid black;
-	border-right:1px solid black;
-}
-
-#sidebar-second #block-views-news-categories-block{
-	border-left:1px solid black;
-	border-right:1px solid black;
-	border-bottom:1px solid black;
-}
-
 
 
 /*********************************
@@ -212,187 +212,187 @@ div#comments div.comment {
 
 /*****************
  * EVENT TEASERS
- */
+*/
 .page-the-fund-events h1{
-	font-size: 20px;
-	font-family: "Georgia", serif;
-	font-weight: normal;
-	font-style: italic;
-	color: black;
-	margin:0px;
+    font-size: 20px;
+    font-family: "Georgia", serif;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    margin:0px;
 }
 
 div.view-events div.node-event{
-	margin-bottom:10px;
+    margin-bottom:10px;
 }
 
 div.view-events div.node-event div.event-date{
-	width:80px;
-	height:100px;
-	float:left;
+    width:80px;
+    height:100px;
+    float:left;
     color:white;
     background-color: #6d9eae;
 }
 
 div.event-date div.day {
-	font-size: 30px;
-	line-height: 70px;
-	height: 70px;
-	text-align: center;
-	border-bottom: 1px solid white;	
+    font-size: 30px;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid white;	
 }
 
 div.event-date div.month{
-	font-size:14px;
-	text-transform: uppercase;
-	line-height:29px;
-	height: 29px;
-	text-align:center;
+    font-size:14px;
+    text-transform: uppercase;
+    line-height:29px;
+    height: 29px;
+    text-align:center;
 }
 
 div.event-details {
-	height: 70px;
-	width: 470px;
-	padding: 15px;
-	background-color: #f9f9f9;
-	overflow: hidden;
-	font-size: 12px;
+    height: 70px;
+    width: 470px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    font-size: 12px;
 }
 
 div.event-details h2 {
-	font-size: 20px;
-	font-family: "Georgia", serif;
-	font-weight: normal;
-	font-style: italic;
-	color: black;
-	margin:0px;
+    font-size: 20px;
+    font-family: "Georgia", serif;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    margin:0px;
 }
 
 div.event-details h2 a {
-	color: black;
+    color: black;
 }
 
 div.event-details div.street-address{
-	display:inline;
+    display:inline;
 }
 
 div.event-details div.street-address:after{
-	content: ", ";
+    content: ", ";
 }
 
 div.adr span.fn:after{
-	content: ", ";
+    content: ", ";
 }
 
 div.event-details div.country-name{
-	display:none;
+    display:none;
 }
 
 div.event-details div.map-link {
-	display:none;
+    display:none;
 }
 
 
 /**********************
  * MINI CALENDAR BLOCKS
- */
+*/
 
 #sidebar-second .small-calendar {
-	padding:0;
-	margin-bottom: 10px;	
+    padding:0;
+    margin-bottom: 10px;	
 }
 
 div.small-calendar .content .view-header{
-	background-color: #6d9eae;
-	height: 45px;
-	text-align:center;
+    background-color: #6d9eae;
+    height: 45px;
+    text-align:center;
 }
 
 div.small-calendar .content .date-nav-wrapper{
-	padding:0;
-	margin: 0;
+    padding:0;
+    margin: 0;
 }
 
 div.small-calendar .content .view-header h3{
-	font-size:14px;
-	font-weight:bold;
-	line-height:45px;
-	color:white;
-	text-transform: uppercase;
+    font-size:14px;
+    font-weight:bold;
+    line-height:45px;
+    color:white;
+    text-transform: uppercase;
 }
 
 div.small-calendar .content .view-header h3 a{
-	color:white;
+    color:white;
 }
 
 div.small-calendar .content .view-header ul.pager{
-	width:100%;
-	top:0;
-	position:absolute;
-	z-index:1;
-	/*they want no pagers as of 1/19/12*/
-	display: none;
+    width:100%;
+    top:0;
+    position:absolute;
+    z-index:1;
+    /*they want no pagers as of 1/19/12*/
+    display: none;
 }
 
 #sidebar-second .small-calendar .content .view-header ul.pager li.date-prev, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next{
-	margin:0;
-	padding:0;
-	border-radius:0;
-	-moz-border-radius:0;
-	color: white;
-	height:45px;
-	line-height:45px;
-	font-size:14px;
-	text-align:center;
-	width:55px;	
-	background-color: #bfd8d8;
+    margin:0;
+    padding:0;
+    border-radius:0;
+    -moz-border-radius:0;
+    color: white;
+    height:45px;
+    line-height:45px;
+    font-size:14px;
+    text-align:center;
+    width:55px;	
+    background-color: #bfd8d8;
 }
 
 #sidebar-second .small-calendar .content .view-header ul.pager li.date-prev a, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next a{
-	color:white;
+    color:white;
 }
 
 
 div.small-calendar .view-content{
-	height: 225px;
-	background-color: #ebebeb;
-	padding: 0 10px 25px 10px;
+    height: 225px;
+    background-color: #ebebeb;
+    padding: 0 10px 25px 10px;
 }
 
 div.small-calendar .view-content .calendar-calendar {
-	width: 320px;
-	
+    width: 320px;
+
 }
 
 div.small-calendar .view-content .calendar-calendar th.days{
-	border: 0;
-	text-transform:uppercase;
-	font-size:14px;
-	line-height:24px;
-	height:24px;
+    border: 0;
+    text-transform:uppercase;
+    font-size:14px;
+    line-height:24px;
+    height:24px;
 }
 
 
 div.small-calendar .view-content .calendar-calendar tr td {
-	background-color: #e3e3e3;
-	height: 38px;
-	border: 2px solid #ebebeb;
-	text-align:center;
-	line-height:38px;
-	font-size: 12px;
+    background-color: #e3e3e3;
+    height: 38px;
+    border: 2px solid #ebebeb;
+    text-align:center;
+    line-height:38px;
+    font-size: 12px;
 }
 
 div.small-calendar .view-content .calendar-calendar tr td.empty {
-	background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 
 div.small-calendar .view-content .calendar-calendar tr td.has-events {
-	background-color: #6d9eae;
+    background-color: #6d9eae;
 }
 
 div.small-calendar .view-content .calendar-calendar tr td.has-events a{
-	color: #777;
-	text-decoration:none;
+    color: #777;
+    text-decoration:none;
 }
 
 

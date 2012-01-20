@@ -147,15 +147,17 @@
 }
 
 
-/*search box above sub menu*/
+/*search box above sub menu and email form*/
 
-#sidebar-second #block-search-form{
+#sidebar-second #block-search-form,
+#sidebar-second #block-webform-client-block-186 {
 	height:144px;
 	width:340px;
 	background-color: #ebebeb;
 	text-align:center;
 }
-#sidebar-second #block-search-form h2{
+#sidebar-second #block-search-form h2,
+#sidebar-second #block-webform-client-block-186 h2{
 	height: 15px;
 	text-align: center;
 	padding:15px;
