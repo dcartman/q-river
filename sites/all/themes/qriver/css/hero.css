@@ -44,7 +44,7 @@ body.front #hero .section {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: -11px;
+    bottom: -15px;
     z-index: 12;
     font-family: "georgia", serif;
     font-size: 100px;
@@ -242,4 +242,14 @@ div#highlighted div.view-news-posts ul.pager li.pager-next a{
 	font-size:0;
 	background: url('../images/home_page_right.png');
 	top:-16px;
+}
+
+
+/**************************
+ * REMOVE HERO FOR MAP NODE
+ */
+
+body.page-node-5 #hero{
+	height: 0px;	
+	
 }
