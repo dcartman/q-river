@@ -46,6 +46,20 @@ div.front_callout p a{
 }
 
 
+div.front_callout .callout_box_image{
+	float:left;
+	width:130px;
+	overflow:hidden;
+}
+
+div.front_callout .callout_box_text{
+	float:left;
+	padding: 10px 15px;
+	width:180px;
+}
+
+
+
 /**************************
  * HOME APPLY HERO CALLOUT
  */

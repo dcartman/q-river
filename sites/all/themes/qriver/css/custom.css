@@ -1,3 +1,19 @@
+
+/*************************
+ * OVERALL STUFF
+ */
+
+h1 {
+	font-family: "Georgio", serif;
+	font-size:20px;
+	font-style:italic;
+}
+
+p {
+	font-size:12px;
+	color: #666;
+}
+
 /**************************
  * NEWS AND NEWS POSTS
  */
