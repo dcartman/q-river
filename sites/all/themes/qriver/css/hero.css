@@ -35,11 +35,16 @@ body.front #hero .section {
     height: 490px;
 }
 
+#hero .section .region,
+#hero .section .region .block-block {
+    height: 100%;
+}
+
 #hero h2 {
     padding: 0;
     margin: 0;
     position: absolute;
-    bottom: 25px;
+    bottom: -11px;
     z-index: 12;
     font-family: "georgia", serif;
     font-size: 100px;
