@@ -147,7 +147,7 @@ div#highlighted {
 	height: 60px;
 	width: 422px;
 	color: white;
-	background-color: #59bc23;
+	background-color: #6d9eae;
 	overflow: hidden;
 	z-index: 12;
 }
@@ -189,8 +189,8 @@ div#highlighted .item-list {
 	width: 79px;
 	height: 60px;
 	text-align:center;
-	border-left: 1px solid #3e8318;
-	background-color: #4ca01e;
+	border-left: 1px solid #4c6e79;
+	background-color: #b3d0d2;
 	color: white;
 }
 

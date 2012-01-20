@@ -134,35 +134,35 @@ div#comments div.comment {
 	margin-left: -4px;
 }
 
-/*****************
- * NEWS PAGER
+/************************
+ * NEWS AND EVENTS PAGERs
  */
 
-#block-system-main div.view-news-posts div.item-list ul.pager{
+#block-system-main div.view-news-posts div.item-list ul.pager, #block-system-main div.view-events div.item-list ul.pager{
 	margin-top:30px;
 	left: 250px;
 }
 
-#block-system-main div.view-news-posts div.item-list ul.pager li{
+#block-system-main div.view-news-posts div.item-list ul.pager li, #block-system-main div.view-events div.item-list ul.pager li{
 	margin:0;
 	padding:0 5px;
 }
 
-#block-system-main div.view-news-posts ul.pager li.pager-previous a{
+#block-system-main div.view-news-posts ul.pager li.pager-previous a, #block-system-main div.view-events ul.pager li.pager-previous a{
 	display:inline-block;
 	width:23px;
 	height:23px;
 	font-size:0;
-	background: url('../images/green_page_left.png');
+	background: url('../images/blue_page_left.png');
 	top:-16px;
 }
 
-#block-system-main div.view-news-posts ul.pager li.pager-next a{
+#block-system-main div.view-news-posts ul.pager li.pager-next a, #block-system-main div.view-events ul.pager li.pager-next a{
 	display:inline-block;
 	width:23px;
 	height:23px;
 	font-size:0;
-	background: url('../images/green_page_right.png');
+	background: url('../images/blue_page_right.png');
 	top:-16px;
 }
 
@@ -215,7 +215,7 @@ div.view-events div.node-event div.event-date{
 	height:100px;
 	float:left;
     color:white;
-    background-color: #59bc23;
+    background-color: #6d9eae;
 }
 
 div.event-date div.day {
@@ -287,7 +287,7 @@ div.event-details div.map-link {
 }
 
 div.small-calendar .content .view-header{
-	background-color: #59bc23;
+	background-color: #6d9eae;
 	height: 45px;
 	text-align:center;
 }
@@ -314,6 +314,8 @@ div.small-calendar .content .view-header ul.pager{
 	top:0;
 	position:absolute;
 	z-index:1;
+	/*they want no pagers as of 1/19/12*/
+	display: none;
 }
 
 #sidebar-second .small-calendar .content .view-header ul.pager li.date-prev, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next{
@@ -327,7 +329,7 @@ div.small-calendar .content .view-header ul.pager{
 	font-size:14px;
 	text-align:center;
 	width:55px;	
-	background-color: #4da01e;
+	background-color: #bfd8d8;
 }
 
 #sidebar-second .small-calendar .content .view-header ul.pager li.date-prev a, #sidebar-second .small-calendar .content .view-header ul.pager li.date-next a{
@@ -366,6 +368,15 @@ div.small-calendar .view-content .calendar-calendar tr td {
 
 div.small-calendar .view-content .calendar-calendar tr td.empty {
 	background-color: #ebebeb;
+}
+
+div.small-calendar .view-content .calendar-calendar tr td.has-events {
+	background-color: #6d9eae;
+}
+
+div.small-calendar .view-content .calendar-calendar tr td.has-events a{
+	color: #777;
+	text-decoration:none;
 }
 
 

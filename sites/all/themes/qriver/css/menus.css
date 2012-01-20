@@ -57,7 +57,7 @@
     margin-left: 0;
 }
 
-#block-menu-block-2 ul li.active-trail {
+#block-menu-block-2 ul li.active-trail, #block-menu-block-2 ul li:hover {
     -webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -65,7 +65,7 @@
 	background-color: #f2322b;
 }
 
-#block-menu-block-2 ul li.active-trail a{
+#block-menu-block-2 ul li.active-trail a, #block-menu-block-2 ul li:hover a{
 	color: white;
 }
 
@@ -127,7 +127,7 @@
 	text-transform: uppercase;
 }
 
-#sidebar-second div.block-menu-block li.active-trail {
+#sidebar-second div.block-menu-block li.active-trail, #sidebar-second div.block-menu-block li:hover {
 	background-color: #f2322b;
 }
 
@@ -167,7 +167,7 @@
 	font-weight: bold;
 	line-height:15px;
 	text-transform: uppercase;
-	background: #59bc23;
+	background: #6d9eae;
 }
 
 /*Recent post AND categories sub menu blocks */

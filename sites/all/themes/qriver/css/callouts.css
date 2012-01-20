@@ -6,3 +6,87 @@
         Callout Region 
 */
 
+/*************************
+ * SIDEBAR HOME CALLOUTS
+ */
+body.front #sidebar-second{
+	top: -45px;
+}
+
+div.front_callout{
+    background-color: black;
+    height:80px;
+    width:340px;
+    margin: 0 0 1px 0;
+    overflow:hidden;
+    z-index: 14;	
+}
+
+div.front_callout h2{
+	font-family: "Arial", sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+div.front_callout p{
+	font-family: "Arial", sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+div.front_callout p a{
+	color: white;
+	text-decoration:none;
+}
+
+
+/**************************
+ * HOME APPLY HERO CALLOUT
+ */
+
+#hero .section .region .block-block.apply_today{
+	position:absolute;
+	left:490px;
+	z-index: 14;
+	width:582px;
+	background-color:black;
+	height: 40px;
+}
+
+#home_apply_plus{
+	float:left;
+	line-height:40px;
+	height:40px;
+	width:20px;
+	background-color: #f2322b;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Helvetica", "Verdana", sans-serif;
+	text-align:center;
+}
+
+#home_apply_text{
+	float:left;
+	line-height:40px;
+	padding: 0 3px;
+	font-family: "Georgia", serif;
+	font-style:italic;
+	color: white;
+}
+
+#home_apply_text a{
+	font-family: "Helvetica", "Verdana", sans-serif;
+	font-size: 10px;
+	font-style:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-left: 8px;
+	color: #F2322B;
+}
