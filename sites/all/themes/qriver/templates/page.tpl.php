@@ -69,7 +69,8 @@
 <div id="page-wrapper">
     <div id="page">
 
-        <div id="header"><div class="section clearfix">
+        <div id="header">
+            <div class="section clearfix">
 
                 <?php if ($site_name || $site_slogan): ?>
                     <div id="name-and-slogan">

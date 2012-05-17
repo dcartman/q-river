@@ -76,10 +76,24 @@ div#hero div.views_slideshow_main div.views-field.views-field-title{
 	font-size: 40px;
 	font-weight: bold;
 	font-style: italic;
+        height: 50px;
+        overflow: hidden;
 	width: 570px;
         text-shadow: 3px 3px 8px black;
 }
+div#hero div.views_slideshow_main div.views-field.views-field-body {
+    position: absolute;
+    left: 490px;
+    top: 225px;
+    width: 570px;
+}
 
+div#hero div.views_slideshow_main div.views-field.views-field-body p{
+    font-family: "Georgia", serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 8px black;
+}
 
 div#hero div.views_slideshow_main div.views-field.views-field-field-link{
 	position: absolute;
